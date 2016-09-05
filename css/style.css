@@ -2,50 +2,53 @@ body {
 	font-family: "微软雅黑";
 }
 
-.navbar.navbar-default.navbar-fixed-top {
-	background-color: #3db89b;
+.navbar.navbar-default {
+	margin-top: 20px;
+	background: none;
+	border: none;
 }
 
 nav .nav.navbar-nav>li>a {
-	color: white;
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
 nav .nav.navbar-nav>li>a:hover {
+	background-color: black;
 	color: white;
-	background-color: rgba(255,255,255,0.5);
+	border-radius: 5px;
 }
 
 #archie_logo {
-	width: 30px;
+	width: 70px;
 	float: left;
-	margin-top: -5px;
+	margin-top: -25px;
 }
 
 .navbar-brand span {
-	color: white;
+	color: black;
 	padding-left: 10px;
+	font-size: 14px;
 }
 
 #archie_jumbotron {
-	margin-top: 100px;
 	position: relative;
+	background: black;
 }
 
 #archie_jumbotron img {
-	width: 100%;
+	width: 70%;
+	margin-bottom: 50px;
 }
 
 #archie_jumbotron>div {
-	position: absolute;
-	top: 10%;
-	right: 10%;
+	color: white;
+	margin-top: 50px;
 }
 
 #archie_jumbotron>div h2, #archie_jumbotron>div h5 {
-	font-weight: 700;
-	text-align: right;
+	font-weight: 500;
+	line-height: 1.5em;
 }
 
 #archie_part_1 img, #archie_part_4 img {
@@ -78,8 +81,18 @@ nav .nav.navbar-nav>li>a:hover {
 	padding-bottom: 50px;
 }
 
-#archie_part_3 h1 {
-	text-align: right;
+#archie_part_3 h4 {
+	font-weight: 700;
+}
+
+#archie_part_3>div:nth-of-type(2) {
+	text-align: justify;
+}
+
+#archie_part_3 img {
+	height: 200px;
+	width: 300px;
+	float: right;
 }
 
 #archie_part_4 p>span {
